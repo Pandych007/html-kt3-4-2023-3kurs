@@ -140,5 +140,42 @@ a:hover {
     }
 }
 
-/* Дополнительные стили из второго набора */
-/* Здесь добавьте стили из второго набора, если они есть */
+
+/* Дополнительные стили для ноутбука */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        font-size: 32px;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+}
+
+/* Дополнительные стили для планшета */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
+
+/* Дополнительные стили для ПК */
+@media only screen and (min-width: 1025px) {
+    header {
+        font-size: 40px;
+    }
+
+    nav li {
+        margin: 0 15px;
+        font-size: 20px;
+    }
+}
+
